@@ -24,7 +24,7 @@ namespace DZ_6th_lesson
 
             (double b1, double k1, double b2, double k2) Input()
             {
-                double k1, b1, k2, b2;
+                double b1, k1, b2, k2;
 
                 Console.WriteLine($"Введите b1");
                 double.TryParse(Console.ReadLine(), out b1);
